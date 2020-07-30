@@ -1,0 +1,4 @@
+psql -U postgres
+postgres=# create database inf;
+inf=# \q
+psql -U postgres -d inf < C:\Users\Alimon\Downloads\inf_full_20200212.sql
